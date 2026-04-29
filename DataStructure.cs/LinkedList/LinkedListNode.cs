@@ -23,6 +23,7 @@ namespace DataStructure.LinkedList
             while(current != null)
             {
                 Console.WriteLine(current.Value.ToString() + "->");
+                 Console.WriteLine(current.Value.ToString() + "->");
                 current = current.Next;
             }
         }
