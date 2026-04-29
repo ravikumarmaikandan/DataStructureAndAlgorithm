@@ -37,6 +37,7 @@ namespace DataStructureConsoleApp
         {
             var list = BuildLinkedList();
             Console.WriteLine("FindNthNodeInLinkedList");
+              Console.WriteLine("FindNthNodeInLinkedList");
             list.DoFindNthNode(7);
         }
         public static void TestDeleteMiddleInLinkedList()
